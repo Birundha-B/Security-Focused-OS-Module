@@ -1,0 +1,3 @@
+[Tue Oct 07 21:21:35 2025] root tried to execute data_encryption → DENIED
+[Tue Oct 07 21:25:00 2025] root tried to execute system_monitor → DENIED
+[Tue Oct 07 21:26:50 2025] root tried to execute system_monitor → ALLOWED
