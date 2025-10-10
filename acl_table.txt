@@ -1,0 +1,5 @@
+file1.txt root Admin RWE
+file2.txt root User RW
+file3.txt root Guest R
+report.doc root Admin,User RW
+logs.txt root Admin RW
