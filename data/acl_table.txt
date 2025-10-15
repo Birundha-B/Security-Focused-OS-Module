@@ -1,0 +1,2 @@
+filename owner allowed_roles permissions
+file1.txt keerthi user,admin,guest r

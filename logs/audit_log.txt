@@ -1,0 +1,11 @@
+"" | Out-File -FilePath logs/audit_log.txt -Encoding ASCII -NoNewline[2025-10-15 21:19:11] User: arun | Action: Login | Status: Success
+[2025-10-15 21:19:23] User: arun | Action: Login | Status: Success
+[2025-10-15 21:19:40] User: arun | Action: Secure File Read | Status: Denied
+[2025-10-15 21:19:51] User: arun | Action: Secure File Write | Status: Denied
+[2025-10-15 21:20:07] User: arun | Action: Access Control Check | Status: Denied
+[2025-10-15 21:20:13] User: System | Action: View Process Table | Status: Displayed
+[Wed Oct 15 21:20:19 2025] arun tried to execute 1 → DENIED
+[2025-10-15 21:30:12] User: keerthi | Action: New User Created & Login | Status: Success
+[2025-10-15 21:30:23] User: keerthi | Action: Secure File Read | Status: Denied
+[2025-10-15 21:31:22] User: keerthi | Action: Secure File Read | Status: Denied
+[Wed Oct 15 21:31:52 2025] keerthi tried to execute 5 → DENIED
